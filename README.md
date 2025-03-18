@@ -20,7 +20,7 @@ This repository contains a flexible and robust Retrieval-Augmented Generation (R
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/llama-index-rag.git
+   git clone https://github.com/nomanaftab/simple-rag.git
    cd llama-index-rag
    ```
 
