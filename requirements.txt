@@ -1,0 +1,26 @@
+# LLM and Embedding
+llama-index-llms-ollama>=0.1.1
+llama-index-embeddings-ollama>=0.1.1
+llama-index-core>=0.10.1
+
+# Vector Stores
+llama-index-vector-stores-chroma>=0.1.1
+llama-index-vector-stores-qdrant>=0.1.1
+chromadb>=0.4.18
+qdrant-client>=1.6.0
+
+# BM25 Support
+llama-index-retrievers-bm25>=0.1.0
+
+# Document Processing
+pymupdf>=1.23.0  # For PDF processing
+pytesseract>=0.3.10  # For OCR
+Pillow>=10.0.0  # For image processing
+python-docx>=0.8.11  # For Word documents
+openpyxl>=3.1.2  # For Excel files
+python-pptx>=0.6.21  # For PowerPoint presentations
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
