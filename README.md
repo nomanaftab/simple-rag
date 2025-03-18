@@ -52,12 +52,7 @@ Choose one of the indexing scripts based on your preferred vector store:
 
 #### With ChromaDB:
 ```bash
-python index_multidoc_chroma.py
-```
-
-#### With Qdrant:
-```bash
-python index_multidoc_qdrant.py
+python chroma-indexing-script.py
 ```
 
 By default, the scripts will:
@@ -70,22 +65,12 @@ After indexing, you can query your documents using the query scripts:
 
 #### Basic Query with ChromaDB:
 ```bash
-python query_chroma.py
+python chromadb-query-script.py
 ```
 
 #### Advanced Query with ChromaDB:
 ```bash
-python query_adv_chroma.py
-```
-
-#### Basic Query with Qdrant:
-```bash
-python query_qdrant.py
-```
-
-#### Advanced Query with Qdrant:
-```bash
-python query_adv_qdrant.py
+python chromadb-advanced-query.py
 ```
 
 ## Configuring Vector Stores
